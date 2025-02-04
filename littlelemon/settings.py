@@ -38,14 +38,17 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
 ]
 
-# Applications
-INSTALLED_APPS += [
-    "reservation",
-]
 
 # Application add-ons
 INSTALLED_APPS += [
     "rest_framework",
+    "rest_framework.authtoken",
+    "djoser",
+]
+
+# Applications
+INSTALLED_APPS += [
+    "reservation",
 ]
 
 MIDDLEWARE = [
