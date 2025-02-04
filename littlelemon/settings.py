@@ -48,7 +48,7 @@ INSTALLED_APPS += [
 
 # Applications
 INSTALLED_APPS += [
-    "reservation",
+    "reastaurant",
 ]
 
 MIDDLEWARE = [
